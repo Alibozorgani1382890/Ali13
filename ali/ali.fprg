@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-12 01:32:48 PM"/>
+        <attribute name="created" value="QXN1czsgREVTS1RPUC0wUEwwUjlMOyAyMDIzLTEyLTEyOyAxMjozNzowNyBQTTsgMjgzNQ=="/>
+        <attribute name="edited" value="QXN1czsgREVTS1RPUC0wUEwwUjlMOyAyMDIzLTEyLTEyOyAwMTozMjo0OCBQTTsgMjgzMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;take A:&quot;"/>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <assign variable="r" expression="A % 2"/>
+            <if expression="r==0">
+                <then>
+                    <output expression="&quot;&#1586;&#1608;&#1580; &#1575;&#1587;&#1578; A&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#1601;&#1585;&#1583; &#1575;&#1587;&#1578; A&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
